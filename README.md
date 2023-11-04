@@ -1,7 +1,7 @@
 # ecommerce_backend
 
 **
-###How to run in local
+### How to run in local
 
 src/main/resources/application.properties.
 Change the Application Properties (E.g. username/password of DB) present in resources/application.properties according to your local mysql-server.
@@ -22,11 +22,11 @@ example :
 4 - cart
 5 - wishlist
 
-##show on
+## show on
 
 Hit Url :
 
-##USER API :
+## USER API :
 
 Sign up :
 
@@ -60,7 +60,7 @@ GetMapping (url) http://localhost:8080/user/all ? token = pass to token
 Note : need Token
 Example : http://localhost:8080/user/all?token=e8d2b831-5c9e-4e28-a66c-83220ff88022                                                                            
 
-##Category controller :                                                                                                                                    
+## Category controller :                                                                                                                                    
 
 Add Catgory 
 PostMapping : (url) http://localhost:8080/category/create                                                                                                     
@@ -111,6 +111,53 @@ JSON :
         "price": 600.0,
         "description": "nke",
         "categoryId": 1
+}
+
+## wishlist
+
+PostMapping (url) http://localhost:8080/wishlist/add ? token= pass to token                                                                                
+Example : http://localhost:8080/wishlist/add?token=a28429b6-7f72-4c91-be3c-d1625658c2cf                                                    
+
+JSON                                                                                                                   
+{
+     "id":1,
+    "name":"lenvo..",
+    "imageURL":".....",
+    "price":900,
+    "description":"e...",
+    "categoryId":1
+}
+
+GetMapping (url) http://localhost:8080/wishlist/ pass token
+
+## CART
+ ADD DATA
+PostMapping (url) http://localhost:8080/cart/add?token=pass token                                                                                
+EXAMPLE : http://localhost:8080/cart/add?token=a28429b6-7f72-4c91-be3c-d1625658c2cf                                                                               
+JSON                                                                                                       
+{
+    "productId":1,
+    "quantity":1
+}
+
+GET DATA
+GetMaping(url) http://localhost:8080/cart/?token=pass token
+EXAMPLE : http://localhost:8080/cart/?token=edbd50c9-1cb2-457b-bb74-603c43ffb26b
+
+DELETE TOKEN
+DeleteMaping(url) http://localhost:8080/cart/delete/pass Cart id ?token=pass token
+EXAMPLE :  http://localhost:8080/cart/delete/2?token=edbd50c9-1cb2-457b-bb74-603c43ffb26b
+
+Update Cart 
+PutMaping(url)http://localhost:8080/cart/update/pass cart id ?token=pass token
+
+Eaxmple : http://localhost:8080/cart/update/2?token=edbd50c9-1cb2-457b-bb74-603c43ffb26b  
+
+JSON                                                                                                                                                         
+{
+    "id":2,
+    "productId":1,
+    "quantity":10
 }
 
 
