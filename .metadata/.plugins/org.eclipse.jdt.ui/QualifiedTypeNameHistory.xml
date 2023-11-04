@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.repository.ProductRepository"/>
-    <fullyQualifiedTypeName name="com.webtutsplus.ecommerce.model.Product"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.model.Product"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.service.ProductService"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.service.CategoryService"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.dto.ProductDto"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.comman.ApiResponse"/>
-    <fullyQualifiedTypeName name="org.apache.el.stream.Optional"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.model.Category"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
@@ -20,16 +8,6 @@
     <fullyQualifiedTypeName name="jakarta.persistence.EnumType"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
     <fullyQualifiedTypeName name="org.slf4j.Logger"/>
     <fullyQualifiedTypeName name="org.apache.tomcat.util.net.openssl.ciphers.MessageDigest"/>
@@ -46,11 +24,9 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.repository.UserRepository"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.service.AuthenticationService"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.service.UserService"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.masai.ecommerse.model.User"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.exception.AuthenticationFailException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
@@ -60,4 +36,28 @@
     <fullyQualifiedTypeName name="com.masai.ecommerse.exception.CustomException"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.dto.SignInResponseDto"/>
     <fullyQualifiedTypeName name="com.masai.ecommerse.dto.SignInDto"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.repository.WishListRepository"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.service.WishListService"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.service.AuthenticationService"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.dto.ProductDto"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.model.WishList"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.service.ProductService"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.comman.ApiResponse"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.model.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.SecurityProperties.User"/>
+    <fullyQualifiedTypeName name="com.masai.ecommerse.model.User"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
 </qualifiedTypeNameHistroy>
