@@ -31,59 +31,59 @@ USER API :
 Sign up :
 
 url : (postMapping)  http://localhost:8080/user/signup 
-pass to data this formate -
+pass to data this formate -                                                                                                                       
 {
         "firstName": "ramram",
         "lastName": "Patel",
         "email": "ram@gmail.com",
         "password": "ram0929"
-}
+}                                                                                                                                            
 
 Sign In :
-url: (PostMapping)  http://localhost:8080/user/signIn
+url: (PostMapping)  http://localhost:8080/user/signIn                                                                                                           
 
-hit josn farmet:
+hit josn farmet:                                                                                                                    
 {
     "email":"ram@gmail.com",
     "password":"ram0929"
-}
+}                                                                                                                                             
 
-Result :
+Result :                                                                                                                            
 
 {
     "status": "success",
     "token": "a28429b6-7f72-4c91-be3c-d1625658c2cf"
-}
+}                                                                                                                                                         
 
 Get ALL USER :
-GetMapping (url) http://localhost:8080/user/all ? token = pass to token
+GetMapping (url) http://localhost:8080/user/all ? token = pass to token                                                                                 
 Note : need Token
-Example : http://localhost:8080/user/all?token=e8d2b831-5c9e-4e28-a66c-83220ff88022
+Example : http://localhost:8080/user/all?token=e8d2b831-5c9e-4e28-a66c-83220ff88022                                                                            
 
-Category controller :
+Category controller :                                                                                                                                    
 
 Add Catgory 
-PostMapping : (url) http://localhost:8080/category/create
+PostMapping : (url) http://localhost:8080/category/create                                                                                                     
 json data formate:
 {
     "categoryName":"men's",
     "description": "cloths",
     "imageUrl":"no...."
-}
+}                                                                                                                                                                  
 
 Update Gatgory :
 
-PutMapping (url) http://localhost:8080/category/update/ PASS CATEGORY ID
+PutMapping (url) http://localhost:8080/category/update/ PASS CATEGORY ID                                                                               
 JOSN
 {
     "categoryName":"women",
     "description": "nike",
     "imageUrl":"no...."
-}
+}                                                                                                                                                                         
 
 GET CATGORY :
 
-GetMapping : (url) http://localhost:8080/category/
+GetMapping : (url) http://localhost:8080/category/                                                                                                                                                                                
 
 
 
