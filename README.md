@@ -83,7 +83,35 @@ JOSN
 
 GET CATGORY :
 
-GetMapping : (url) http://localhost:8080/category/                                                                                                                                                                                
+GetMapping : (url) http://localhost:8080/category/ 
+## PRODUCT SECTION
+
+ADD data                                                                                                                                                  
+PostMapping (url ) : http://localhost:8080/product/add                                                                                              
+JSON :
+{
+        "id": 1,
+        "name": "pen_black",
+        "imageURL": "Na",
+        "price": 6.0,
+        "description": "nke",
+        "categoryId": 2
+}
+
+GET DATA 
+GetMapping (url) : http://localhost:8080/product/                                                                                                        
+
+UPDATE DATA
+PutMapping  (url) http://localhost:8080/product/update/pass product id                                                                                    
+JSON :
+{
+        "id": 1,
+        "name": "shose",
+        "imageURL": "na",
+        "price": 600.0,
+        "description": "nke",
+        "categoryId": 1
+}
 
 
 
