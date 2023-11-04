@@ -2,14 +2,18 @@ package com.masai.ecommerse.service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.masai.ecommerse.dto.ProductDto;
+import com.masai.ecommerse.exception.ProductNotExistException;
 import com.masai.ecommerse.model.Category;
 import com.masai.ecommerse.model.Product;
 import com.masai.ecommerse.repository.ProductRepository;
+
 
 
 
@@ -47,6 +51,13 @@ public class ProductService {
         Product product = getProductFromDto(productDto, category);
         product.setId(productID);
         productRepository.save(product);
+    }
+    
+    public Product getProductById(Integer productId) throws ProductNotExistException {
+        Optional<Product> optionalProduct = productRepository.findById(productId);
+        if (!optionalProduct.isPresent())
+            throw new ProductNotExistException("Product id is invalid " + productId);
+        return optionalProduct.get();
     }
 
 }
