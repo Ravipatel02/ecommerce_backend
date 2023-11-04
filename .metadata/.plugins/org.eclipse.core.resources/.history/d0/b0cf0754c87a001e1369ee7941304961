@@ -1,0 +1,5 @@
+package com.masai.ecommerse.repository;
+
+public interface WishListRepository {
+
+}
