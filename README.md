@@ -22,11 +22,11 @@ example :
 4 - cart
 5 - wishlist
 
-show on
+##show on
 
 Hit Url :
 
-USER API :
+##USER API :
 
 Sign up :
 
@@ -60,7 +60,7 @@ GetMapping (url) http://localhost:8080/user/all ? token = pass to token
 Note : need Token
 Example : http://localhost:8080/user/all?token=e8d2b831-5c9e-4e28-a66c-83220ff88022                                                                            
 
-Category controller :                                                                                                                                    
+##Category controller :                                                                                                                                    
 
 Add Catgory 
 PostMapping : (url) http://localhost:8080/category/create                                                                                                     
