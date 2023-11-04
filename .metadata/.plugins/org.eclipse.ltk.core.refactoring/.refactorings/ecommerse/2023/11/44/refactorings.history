@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.masai.ecommerse.enums.Enum.java&apos; to &apos;ResponseStatus.java&apos;&#x0D;&#x0A;- Original project: &apos;ecommerse&apos;&#x0D;&#x0A;- Original element: &apos;com.masai.ecommerse.enums.Enum.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.masai.ecommerse.enums.ResponseStatus.java&apos;" description="Rename compilation unit &apos;Enum.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.masai.ecommerse.enums{Enum.java" name="ResponseStatus.java" references="false" stamp="1699034124042" version="1.0"/>
+</session>
